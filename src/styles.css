@@ -1,0 +1,40 @@
+#root {
+  width: 100%;
+  display: flex;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.Content {
+  overflow: auto;
+  margin: 70px;
+  width: 500px;
+  height: 400px;
+}
+
+main {
+  margin: 3em auto 6em auto;
+  max-width: 800px;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0 0 1em;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: normal;
+  margin: 3em 0 1em;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em;
+}
